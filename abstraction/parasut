@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace Abtraction.abtractionClass
+{
+	public class parasut : tas
+	{
+	public override ciricirinya()
+	{
+	consoli.writeline("bahannya licin dan lemes");
+	}
+	}
+}

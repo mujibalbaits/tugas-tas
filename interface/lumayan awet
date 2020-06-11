@@ -1,0 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace abtraction.interface
+{
+	public class lumayanawet : tkeawetan
+	{
+	public void keunggulan()
+	{
+	console.writeline("bahan kaku jadi bisa awet ga gampang sobek ");
+	}
+	} 
+}

@@ -1,0 +1,49 @@
+using system;
+using system.colection.generic;
+using system.ling;
+using system.text;
+using abtraction.abtractionclass;
+using abraction.interface;
+
+namespace abtraction
+{
+	class program
+	{
+	static void main(string[] args)
+	{
+	consloe.writeline();
+	consloe.writeline("konsep abstraksi menggunakan abstract class");
+	consloe.writeline();
+	tas tas;
+
+	tas = new taslan();
+	tas.ciricirinya();
+
+	tas = new cordura();
+	tas.ciricirinya();
+
+	tas = new parasut();
+	tas.ciricirinya();
+	
+	consloe.writeline();
+	consloe.writeline();
+	consloe.writeline("konsep abstraksi menggunakan interface");
+	consloe.writeline();
+
+	tkeawetan tingkatkeawetan;
+
+	tingkatkeawetan = new mudahrusak();
+	tingkatkeawetan.keunggulan();
+
+
+	tingkatkeawetan = new lumayanawet();
+	tingkatkeawetan.keunggulan();
+
+
+	tingkatkeawetan = new awet();
+	tingkatkeawetan.keunggulan();
+
+	console.readkey();
+	}
+	}
+}

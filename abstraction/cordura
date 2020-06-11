@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace Abtraction.abtractionClass
+{
+	public class cordura : tas
+	{
+	public override ciricirinya()
+	{
+	consoli.writeline("bahanya kaku dan agak kasar");
+	}
+	}
+}
